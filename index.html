@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+<!--	komentarze brackets ctrl + /-->
+<!--komentarze nie sa widoczne na stronie ale sa widoczne w strukturze-->
+<!--komentarze uzywamy do opisywania poszczegolnych blokow kodu-->
+
+<!--navigacja start-->
+<nav>
+	<ul>
+		<li><a href="">link</a></li>
+		<li><a href="">link</a></li>
+		<li><a href="">link</a></li>
+		<li><a href="">link</a></li>
+		<li><a href="">link</a></li>
+	</ul>
+</nav>
+
+<!--navigacja end-->
+
+<!--elementy blokowe rozciagaja sie na pelna szerokosc dostepnego miejsca w oknie przegladarki (100%).Jezeli nie puste (brak contentu)to posiadaja 0-->
+
+<div> 
+<a href="">link</a>
+<a href="">link</a>
+<a href="">link</a>
+<a href="">link</a>
+<a href="">link</a>
+
+<p>{Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, ducimus veniam voluptas eius vero placeat quod numquam eos, quos, sed autem quam doloribus incidunt labore quasi expedita adipisci tempore. Aut.}</p>
+</div>
+
+<!--do tworzenia formularza, uzywamy znacznika form-->
+
+<div id="formularz">
+<!--
+
+do grupowania imputow typu radio potrzebujemy dla kazdego z nich atrybutu name z ta sama wartoscia
+-->
+<!--atrybut value przy inputach moze byc potrzebny do skryptu .php, ktory odpalany jest przy wysylaniu formularza (z atrybutu action)-->
+<!--	input typu number pozwala na wpisywanie tylko wartosci liczbowych i znkow specjalnych hjak + --->
+<!--input type tel zaznacza ze wtym miejscu bedzie numer tel-->
+<!--a email emalil-->
+
+	<form action= method"">
+	<input type="text"><br>
+	<input type="radio" name="age">-18
+	<input type="radio" name="age">18
+	<input type="radio" name="age">+18<br>
+<!--atrybut name potrzebny jest do zdefiniowania nazwy konkretnego pola formularza
+-->
+		<input type="text" name="firstName"><br>
+		<input type="text" name="secondName"><br>
+		
+<!--		atrybut placeholder sluzy do opisania zkonkretnego inputu opis pojawi sie wewnatrz niego-->
+
+<input type="text" name="birthday"
+	placeholder="wpisz date urodzin">
+		</form>
+</div>
+
+</body>
+</html>
